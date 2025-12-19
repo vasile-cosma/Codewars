@@ -1,0 +1,12 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class CinquecentoTest {
+
+	@Test
+	void test() {
+		assertEquals(int[16,20,22], null);
+	}
+
+}

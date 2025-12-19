@@ -1,0 +1,8 @@
+
+public class Solucion2 {
+public static Sscanner sc = new Scanner(Sytem.in);
+	public static void main(String[] args) {
+
+	}
+
+}

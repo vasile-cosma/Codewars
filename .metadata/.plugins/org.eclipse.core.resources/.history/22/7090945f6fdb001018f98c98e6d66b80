@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		StringBuilder sb = new StringBuilder();
+		String[] arrayCadenas = original.split(original);
+		for (String string : arrayCadenas) {
+			System.out.println(sb.reverse());
+		}
+
+	}
+
+}

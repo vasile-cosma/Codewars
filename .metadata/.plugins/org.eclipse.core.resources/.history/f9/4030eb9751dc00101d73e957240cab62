@@ -1,0 +1,6 @@
+public class SmashWords {
+
+	public static String smash(String... words) {
+		
+  }
+}

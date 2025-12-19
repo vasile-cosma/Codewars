@@ -1,0 +1,14 @@
+package clases;
+
+public class DescendingOrder {
+	public static int sortDesc(final int num) {
+		int numFinal;
+		
+		StringBuilder sb = new StringBuilder(Integer.toString(num));
+		String numCadena = sb.reverse();
+		numFinal = Integer.parseInt(sb.reverse());
+		
+		
+		return numFinal;
+	  }
+}

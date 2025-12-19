@@ -1,0 +1,14 @@
+import java.util.Arrays;
+import java.util.Map;
+
+import javax.xml.stream.events.Characters;
+
+public class Kata {
+	public static Map<Character, Integer> count(String str) {
+		char[] caracteres = str.toCharArray();
+		Map<Character, Integer> map = new HashMap<Character, Integer>();
+		for (char c : caracteres) {
+			map.getOrDefault(c, map.getOrDefault(map, 1));
+		}
+	}
+}

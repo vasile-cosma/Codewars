@@ -1,0 +1,14 @@
+package clases;
+
+import java.util.Arrays;
+
+public class DescendingOrder {
+	public static int sortDesc(final int num) {
+		char[] caracteres = String.valueOf(num).toCharArray();
+		Arrays.sort(caracteres);
+		StringBuilder sb = new StringBuilder(caracteres.toString())
+		return Integer.parseInt(Integer.parseInt(Arrays.sort(caracteres).toString));
+			
+
+	}
+}

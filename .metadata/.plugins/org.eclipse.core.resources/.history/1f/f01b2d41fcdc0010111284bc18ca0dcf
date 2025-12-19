@@ -1,0 +1,14 @@
+import java.awt.datatransfer.StringSelection;
+import java.util.ArrayList;
+
+public class Scramblies {
+    
+    public static boolean scramble(String str1, String str2) {    
+    	char[] arr = str1.toCharArray();
+    	StringBuilder sb = new StringBuilder(str1);
+    	boolean flag = true;
+    	for (char c : arr) {
+			if (str1.c)
+		}
+    }
+}

@@ -1,0 +1,15 @@
+package clases;
+
+import java.util.Arrays;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char[] Integer.parseInt(caracteres.toString() = String.valueOf(num).toCharArray();
+		Arrays.sort(caracteres);
+		System.out.println(caracteres);
+		return ());
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package solucion;
+
+public class DnaStrand {
+	public static String makeComplement(String dna) {
+		char[] caracteres = dna.toCharArray();
+		
+		
+	  }
+}

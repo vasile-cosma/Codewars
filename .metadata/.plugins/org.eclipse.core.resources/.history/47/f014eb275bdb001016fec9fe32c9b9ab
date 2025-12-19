@@ -1,0 +1,19 @@
+package clases;
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class DescendingOrder {
+	public static int sortDesc(final int num) {
+		char[] caracteres = String.valueOf(num).toCharArray();
+		Arrays.sort(caracteres);
+		Arrays.sort(caracteres, Comparator<T> {} );
+		StringBuilder sb = new StringBuilder();
+		for (char c : caracteres) {
+			sb.append(c);
+		}
+		return (Integer.parseInt(sb.toString()));
+			
+
+	}
+}

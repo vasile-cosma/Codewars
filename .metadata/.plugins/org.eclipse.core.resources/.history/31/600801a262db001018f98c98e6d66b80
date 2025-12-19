@@ -1,0 +1,8 @@
+package solucion;
+
+public class DnaStrand {
+	public static String makeComplement(String dna) {
+		StringBuilder sb = new StringBuilder(dna);
+		sb.charAt(0);
+	  }
+}

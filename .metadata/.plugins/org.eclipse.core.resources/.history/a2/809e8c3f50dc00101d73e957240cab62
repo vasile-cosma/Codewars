@@ -1,0 +1,9 @@
+import java.util.Arrays;
+
+public class FindOutlier {
+  static int find(int[] integers) {
+	  int par = (int)Arrays.stream(integers).filter(x -> x%2==0).count();
+	  if (par>0){
+	  
+  }
+}

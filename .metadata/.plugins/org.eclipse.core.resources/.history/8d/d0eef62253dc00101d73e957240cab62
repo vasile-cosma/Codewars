@@ -1,0 +1,8 @@
+import java.util.Map;
+
+public class Kata {
+    public static Map<Character, Integer> count(String str) {
+        // Happy coding!
+        return null;
+    }
+}

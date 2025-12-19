@@ -1,0 +1,13 @@
+
+public class Prime {
+
+	public static boolean isPrime(int num) {
+		boolean primo = false;
+		if (num <= 1)
+			return false;
+
+		for (int i = 0; 0 < num; ++i) {
+
+		}
+	}
+}

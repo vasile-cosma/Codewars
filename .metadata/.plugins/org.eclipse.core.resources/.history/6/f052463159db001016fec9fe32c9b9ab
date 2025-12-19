@@ -1,0 +1,8 @@
+package clases;
+
+public class DescendingOrder {
+	public static int sortDesc(final int num) {
+		String cadenaRecibida = String.valueOf(num);
+		StringBuilder sb = new StringBuilder(cadenaRecibida);
+	}
+}

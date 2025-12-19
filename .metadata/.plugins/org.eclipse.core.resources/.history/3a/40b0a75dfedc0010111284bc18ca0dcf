@@ -1,0 +1,20 @@
+
+public class Scramblies {
+    
+    public static boolean scramble(String str1, String str2) {    
+    	char[] arr2 = str2.toCharArray();
+    	boolean flag = true;
+    	int indice;
+    	for (char c : arr2) {
+    		StringBuilder sb = new StringBuilder(str1);
+    		indice = str1.indexOf(c);
+			if (indice==-1) {
+				flag = false;
+				break;
+			}
+			
+			
+		}
+    	return flag;
+    }
+}
