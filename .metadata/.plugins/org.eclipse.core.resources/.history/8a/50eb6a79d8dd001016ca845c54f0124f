@@ -1,0 +1,11 @@
+public class SecureTester{
+  
+  public static boolean alphanumeric(String s){
+    char[] arr =s.toCharArray();
+    boolean flag = false;
+    for (char c : arr) {
+		if (Character.isAlphabetic(c)) return true;
+	}
+  }
+
+}

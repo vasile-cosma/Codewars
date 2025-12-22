@@ -1,0 +1,8 @@
+package ej1;
+
+public class FrecuenciaMax {
+	public int CalculaFrecuenciaMax(int[] arr) {
+		int frec = 0;
+		return frec;
+	}
+}

@@ -1,0 +1,21 @@
+import java.util.Map;
+import java.util.Objects;
+
+public class PeteBaker {
+	public static int cakes(Map<String, Integer> recipe, Map<String, Integer> available) {
+		int pasteles = Integer.MAX_VALUE; 
+	    for (String ingrediente: recipe.keySet()) {
+	    	//IMPORTANTE: Integer en vez de int para tratar nulos
+			Integer necesario = recipe.get(ingrediente);
+			Integer disponible = available.get(ingrediente);
+			if (!Objects.isNull(necesario) && Objects.isNull(disponible)) {
+				return 0;
+			}
+			
+			
+			if (disponible/necesario < pasteles) 
+				pasteles = disponible/necesario;
+	}
+	    return pasteles;
+  }
+}

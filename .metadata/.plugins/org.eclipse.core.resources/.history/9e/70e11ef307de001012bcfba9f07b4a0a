@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		StringBuilder sb = new StringBuilder("Pedro");
+		System.out.println(sb.length());
+		System.out.println(sb.charAt(5));
+
+	}
+
+}

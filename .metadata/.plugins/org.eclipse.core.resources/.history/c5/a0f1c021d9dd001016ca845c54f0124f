@@ -1,0 +1,14 @@
+public class SecureTester{
+  
+  public static boolean alphanumeric(String s){
+    char[] arr =s.toCharArray();
+    for (char c : arr) {
+    	int num = Character.codePointOf(Character.toString(c));
+		if (Character.isLetterOrDigit(num)) {
+			return true;
+		}
+	}
+    return false;
+  }
+
+}

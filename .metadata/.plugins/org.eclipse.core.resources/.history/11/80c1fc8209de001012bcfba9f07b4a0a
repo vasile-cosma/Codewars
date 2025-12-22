@@ -1,0 +1,21 @@
+import java.util.Arrays;
+
+public class PigLatin {
+    public static String pigIt(String str) {
+    	String[] arr = str.split(" ");
+    	convertir(str);
+    	arr = Arrays.stream(arr).map(x -> convertir(x)).collect(null);
+    	for (String string : arr) {
+			System.out.println(string);
+		}
+    	return String.join(" ", arr);
+    }
+    
+    public static String convertir(String palabra) {
+    	StringBuilder sb = new StringBuilder(palabra);
+    	sb.setCharAt(sb.length()-1, sb.charAt(0));
+    	sb.deleteCharAt(0);
+    	sb.append("ay");
+    	return sb.toString();
+    }
+}

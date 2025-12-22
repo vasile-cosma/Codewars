@@ -1,0 +1,9 @@
+import java.util.Map;
+
+public class PeteBaker {
+  public static int cakes(Map<String, Integer> recipe, Map<String, Integer> available) {
+    for (Map ingredient: recipe) {
+		
+	}
+  }
+}

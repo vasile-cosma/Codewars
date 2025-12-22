@@ -1,0 +1,24 @@
+package ej1;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class EjFrecuenciaMax {
+public static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+			int cantidad = sc.nextInt();
+			int[] arr;
+			for (int i : arr) {
+				
+			}
+			Map<Integer, Integer> m = new HashMap<Integer, Integer>();
+			for (int i : arr) {
+				m.put(i, m.getOrDefault(i, 0)+1);
+			}
+			
+			return frec;
+
+	}
+
+}

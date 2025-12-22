@@ -1,0 +1,13 @@
+package ej1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class FrecuenciaMax {
+	public int CalculaFrecuenciaMax(int[] arr) {
+		int frec = 0;
+		Map<Integer, Integer> m = new HashMap<Integer, Integer>();
+		for (int i = 0; i<arr.length)
+		return frec;
+	}
+}

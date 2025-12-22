@@ -1,0 +1,8 @@
+package ej1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class FrecuenciaMax {
+
+}

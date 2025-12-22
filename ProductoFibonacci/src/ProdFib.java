@@ -1,0 +1,9 @@
+public class ProdFib {
+
+	public static long[] productFib(long prod) {
+		
+		return null;
+	}
+	
+	
+}
