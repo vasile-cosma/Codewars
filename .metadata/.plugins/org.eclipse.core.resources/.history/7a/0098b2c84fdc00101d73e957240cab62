@@ -1,9 +1,0 @@
-import java.util.Arrays;
-
-public class FindOutlier {
-  static int find(int[] integers) {
-	  int par;
-	  int impar;
-	  Arrays.stream(integers).forEach(x -> x%2==0? par++ : impar++)
-  }
-}

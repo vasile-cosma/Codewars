@@ -1,7 +1,0 @@
-package clase;
-
-public class Solution {
-	public static String[] stringToArray(String s) {
-		s.split(" ");
-    }
-}

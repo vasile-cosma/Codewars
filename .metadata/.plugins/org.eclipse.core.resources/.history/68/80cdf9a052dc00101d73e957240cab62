@@ -1,9 +1,0 @@
-import java.util.Arrays;
-
-public class SmashWords {
-
-	public static String smash(String... words) {
-		StringBuilder sb = new StringBuilder();
-		Arrays.stream(words).forEach(x -> sb.append(x)));
-  }
-}

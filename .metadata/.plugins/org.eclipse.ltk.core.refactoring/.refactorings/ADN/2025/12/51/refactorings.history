@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;solucion.Bio&apos; to &apos;DnaStrand&apos;&#x0D;&#x0A;- Original project: &apos;ADN&apos;&#x0D;&#x0A;- Original element: &apos;solucion.Bio&apos;&#x0D;&#x0A;- Renamed element: &apos;solucion.DnaStrand&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Bio&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;solucion{Bio.java[Bio" matchStrategy="1" name="DnaStrand" qualified="false" references="true" similarDeclarations="false" stamp="1765986834232" textual="false" version="1.0"/>
-</session>
