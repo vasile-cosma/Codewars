@@ -1,7 +1,0 @@
-public class SecureTester{
-  
-  public static boolean alphanumeric(String s){
-    s.toCharArray();
-  }
-
-}
